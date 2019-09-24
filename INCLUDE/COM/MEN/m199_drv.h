@@ -3,8 +3,6 @@
  *        \file  m199_drv.h
  *
  *      \author  ck
- *        $Date: 2009/06/30 11:49:43 $
- *    $Revision: 3.3 $
  *
  *       \brief  Header file for M199 driver containing
  *               M199 specific status codes and
@@ -12,23 +10,10 @@
  *
  *    \switches  _ONE_NAMESPACE_PER_DRIVER_
  *               _LL_DRV_
- */
- /*-------------------------------[ History ]--------------------------------
  *
- * $Log: m199_drv.h,v $
- * Revision 3.3  2009/06/30 11:49:43  CRuff
- * R: driver ported to MDIS5, new MDIS_API and men_typs
- * M: for backward compatibility to MDIS4 optionally define new types
- *
- * Revision 3.2  2007/08/24 12:51:38  CKauntz
- * fixed M199_SDRAM_ACCESS to no buffer pointer
- * added M199_SDRAM_BUFFER_SIZE and M199_SDRAM_ACCESS_MINISIZE
- *
- * Revision 3.1  2007/08/17 13:48:09  CKauntz
- * Initial Revision
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 2007 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright 2007-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
 
 #ifndef _M199_DRV_H

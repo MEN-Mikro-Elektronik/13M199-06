@@ -6,8 +6,6 @@
 /*!
  *         \file m199_simp.c
  *       \author ck
- *        $Date: 2009/07/06 13:34:44 $
- *    $Revision: 1.6 $
  *
  *       \brief  Simple example program for the M199 driver
  *
@@ -18,41 +16,12 @@
  *
  *     Required: libraries: mdis_api
  *     \switches (none)
- */
- /*-------------------------------[ History ]--------------------------------
  *
- * $Log: m199_simp.c,v $
- * Revision 1.6  2009/07/06 13:34:44  CRuff
- * R: VxWorks diab compiler states type incompatibility
- * M: fix type conversions
- *
- * Revision 1.5  2009/06/24 10:55:30  CRuff
- * R: Porting to MDIS5
- * M: changed variable types that caused mdve/apb5 warnings
- *
- * Revision 1.4  2009/06/16 11:19:11  CRuff
- * R: 1. new type MDIS_PATH
- *    2. cosmetics
- * M: 1. changed type of variable path to MDIS_PATH
- *    2. corrected typo in debug message
- *
- * Revision 1.3  2008/09/17 13:13:58  CKauntz
- * R: No support for 64 bit operating system
- * M: Changed: path to U_INT32_OR_64,
- *             SetStat and GetStat parameters to INT32_OR_64
- *
- * Revision 1.2  2007/08/24 12:51:36  CKauntz
- * fixed the Getstat and Setstat M199_BLK_SDRAM access
- * changed usage parameter names
- *
- * Revision 1.1  2007/08/17 13:48:07  CKauntz
- * Initial Revision
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 2007 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright 2007-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
 
-static const char RCSid[]="$Id: m199_simp.c,v 1.6 2009/07/06 13:34:44 CRuff Exp $";
 
 #include <stdio.h>
 #include <string.h>
@@ -61,6 +30,8 @@ static const char RCSid[]="$Id: m199_simp.c,v 1.6 2009/07/06 13:34:44 CRuff Exp 
 #include <MEN/usr_utl.h>
 #include <MEN/mdis_api.h>
 #include <MEN/m199_drv.h>
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*--------------------------------------+
 |   DEFINES                             |
@@ -124,7 +95,7 @@ int main(int argc, char *argv[])
 		printf("  -u           show usm eeprom................. [no]      \n");
 		printf("  -e           set usm eeprom to defined values [no]      \n");
 		printf("  -? / -h      prints this help................ [no]      \n");
-
+		printf("%s\n", IdentString );
 		printf("\n");
 		return(1);
 	}

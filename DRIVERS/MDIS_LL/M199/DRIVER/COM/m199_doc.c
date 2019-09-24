@@ -3,36 +3,16 @@
  *        \file  m199_doc.c
  *
  *      \author  ck
- *        $Date: 2009/07/13 14:08:54 $
- *    $Revision: 1.4 $
  *
  *      \brief   User documentation for M199 module driver
  *
  *     Required: -
  *
  *     \switches -
- */
- /*-------------------------------[ History ]--------------------------------
- *
- * $Log: m199_doc.c,v $
- * Revision 1.4  2009/07/13 14:08:54  CRuff
- * R: Change of prerequisites
- * M: changed MDIS system package hint
- *
- * Revision 1.3  2009/07/13 11:09:52  CRuff
- * R: update of general description (prerequisites)
- * M: changed prerequisites for driver usage
- *
- * Revision 1.2  2009/07/07 13:23:54  CRuff
- * R: environment restrictions not stated in documentation
- * M: added hint: only supported with MDIS4 version 3.11 or newer
- *
- * Revision 1.1  2007/08/17 13:47:51  CKauntz
- * Initial Revision
  *
  *
  *---------------------------------------------------------------------------
- * (c) Copyright 2007 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ * Copyright 2007-2019, MEN Mikro Elektronik GmbH
  ****************************************************************************/
 
 /*! \mainpage

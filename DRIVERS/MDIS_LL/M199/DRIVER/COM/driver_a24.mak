@@ -1,24 +1,21 @@
 #***************************  M a k e f i l e  *******************************
 #
 #         Author: ck
-#          $Date: 2007/08/17 13:47:55 $
-#      $Revision: 1.1 $
 #
 #    Description: Makefile definitions for the M199 driver
 #
-#---------------------------------[ History ]---------------------------------
-#
-#   $Log: driver_a24.mak,v $
-#   Revision 1.1  2007/08/17 13:47:55  CKauntz
-#   Initial Revision
-#
 #-----------------------------------------------------------------------------
-#   (c) Copyright 2007 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+#   Copyright 2007-2019, MEN Mikro Elektronik GmbH
 #*****************************************************************************
 
 MAK_NAME=m199_a24
+# the next line is updated during the MDIS installation
+STAMPED_REVISION="_"
+
+DEF_REVISION=MAK_REVISION=$(STAMPED_REVISION)
 
 MAK_SWITCH=$(SW_PREFIX)MAC_MEM_MAPPED \
+		$(SW_PREFIX)$(DEF_REVISION) \
 		   $(SW_PREFIX)M199_A24
 
 MAK_LIBS=$(LIB_PREFIX)$(MEN_LIB_DIR)/desc$(LIB_SUFFIX)	\

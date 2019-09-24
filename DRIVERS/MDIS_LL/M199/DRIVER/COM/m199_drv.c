@@ -3,38 +3,16 @@
  *        \file  m199_drv.c
  *
  *      \author  ck
- *        $Date: 2009/07/06 13:33:38 $
- *    $Revision: 1.5 $
  *
  *      \brief   Low-level driver for M199 module
  *
  *     Required: OSS, DESC, DBG, ID libraries
  *
  *     \switches _ONE_NAMESPACE_PER_DRIVER_
- */
- /*-------------------------------[ History ]----------------------------------
  *
- * $Log: m199_drv.c,v $
- * Revision 1.5  2009/07/06 13:33:38  CRuff
- * R: VxWorks diab compiler states type incompatibility in M199_GetStat
- * M: fix type conversions in M199_GetStat
  *
- * Revision 1.4  2009/06/24 10:52:31  CRuff
- * R: 1.Porting to MDIS5
- * M: 1.Changes according to MDIS porting guide 0.5
- *
- * Revision 1.3  2008/09/17 13:13:56  CKauntz
- * R: No support for 64 bit operating system
- * M: Changed SetStat and GetStat value to INT32_OR_64
- *
- * Revision 1.2  2007/08/24 12:51:34  CKauntz
- * fixed the Getstat and Setstat M199_BLK_SDRAM access
- *
- * Revision 1.1  2007/08/17 13:47:50  CKauntz
- * Initial Revision
- *
- *-----------------------------------------------------------------------------
- * (c) Copyright 2007 by MEN Mikro Elektronik GmbH, Nuremberg, Germany
+ *---------------------------------------------------------------------------
+ * Copyright 2007-2019, MEN Mikro Elektronik GmbH
  ******************************************************************************/
 
 #define _NO_LL_HANDLE		/* ll_defs.h: don't define LL_HANDLE struct */
@@ -110,6 +88,8 @@ typedef struct {
 /* include files which need LL_HANDLE */
 #include <MEN/ll_entry.h>   /* low-level driver jump table  */
 #include <MEN/m199_drv.h>   /* M199 driver header file */
+
+static const char IdentString[]=MENT_XSTR(MAK_REVISION);
 
 /*-----------------------------------------+
 |  PROTOTYPES                              |
@@ -890,7 +870,7 @@ static int32 M199_Info(
  ******************************************************************************/
 static char* M199_Ident( void )
 {
-    return( "M199 - M199 low-level driver: $Id: m199_drv.c,v 1.5 2009/07/06 13:33:38 CRuff Exp $" );
+    return( (char*) IdentString );
 } /* M199_Ident*/
 
 /********************************* M199_Cleanup *******************************/
