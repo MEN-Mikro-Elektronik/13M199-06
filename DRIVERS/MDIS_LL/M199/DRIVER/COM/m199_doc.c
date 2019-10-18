@@ -146,44 +146,6 @@
     </tr>
     </table>
 
-    \subsection m199_min   Minimum descriptor
-    m199_min.dsc
-    Demonstrates the minimum set of options necessary for using the driver.
-
-    \subsection m199_max   Maximum descriptor
-    m199_max.dsc
-    Shows all possible configuration options for this driver.
-
- 	\subsection m199_sw_min   Minimum descriptor for swapped version
-    m199_sw_min.dsc
-    Demonstrates the minimum set of options necessary for using the driver
-    at boards that need the swapped driver version.
-
-    \subsection m199_sw_max   Maximum descriptor for swapped version
-    m199_sw_max.dsc
-    Shows all possible configuration options for this driver at boards
-    that need the swapped driver version.
-
- 	\subsection m199_a24_min   Minimum descriptor for A24 mode
-    m199_a24_min.dsc
-    Demonstrates the minimum set of options necessary for using the driver
-    at boards that support A24 mode.
-
-    \subsection m199_a24_max   Maximum descriptor for A24 mode
-    m199_a24_max.dsc
-    Shows all possible configuration options for this driver at boards
-    that support A24 mode.
-
-   	\subsection m199_a24_sw_min   Minimum descriptor for A24 swapped version
-    m199_a24_sw_min.dsc
-    Demonstrates the minimum set of options necessary for using the driver
-    at boards that need the swapped driver version and support the A24 mode.
-
-    \subsection m199_a24_sw_max   Maximum descriptor for A24 swapped version
-    m199_a24_sw_max.dsc
-    Shows all possible configuration options for this driver at boards
-    that need the swapped driver version and support the A24 mode.
-
     \n \section codes M199 specific Getstat/Setstat codes
     see \ref getstat_setstat_codes "section about Getstat/Setstat codes"
 
@@ -191,18 +153,9 @@
 
     \subsection m199_simp  Simple example for using the driver
     m199_simp.c (see example section)
-
 */
 
 /** \example m199_simp.c */
-/** \example m199_min.dsc */
-/** \example m199_max.dsc */
-/** \example m199_sw_min.dsc */
-/** \example m199_sw_max.dsc */
-/** \example m199_a24_min.dsc */
-/** \example m199_a24_max.dsc */
-/** \example m199_a24_sw_min.dsc */
-/** \example m199_a24_sw_max.dsc */
 
 /*! \page dummy
   \menimages
