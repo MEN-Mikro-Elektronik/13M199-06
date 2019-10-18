@@ -9,26 +9,16 @@
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_doc.c"><param name="Local" value="m199__doc_8c.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_drv.c"><param name="Local" value="m199__drv_8c.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_drv.h"><param name="Local" value="m199__drv_8h.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_simp.c"><param name="Local" value="m199__simp_8c.html"><param name="ImageNumber" value="11"></OBJECT>
   </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="LL_HANDLE"><param name="Local" value="structLL__HANDLE.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="M199_SDRAM_ACCESS"><param name="Local" value="structM199__SDRAM__ACCESS.html"><param name="ImageNumber" value="11"></OBJECT>
   </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Fields"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Examples"><param name="Local" value="examples.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_a24_max.dsc"><param name="Local" value="m199__a24__max_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_a24_min.dsc"><param name="Local" value="m199__a24__min_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_a24_sw_max.dsc"><param name="Local" value="m199__a24__sw__max_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_a24_sw_min.dsc"><param name="Local" value="m199__a24__sw__min_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_max.dsc"><param name="Local" value="m199__max_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_min.dsc"><param name="Local" value="m199__min_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_simp.c"><param name="Local" value="m199__simp_8c-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_sw_max.dsc"><param name="Local" value="m199__sw__max_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="m199_sw_min.dsc"><param name="Local" value="m199__sw__min_8dsc-example.html"><param name="ImageNumber" value="11"></OBJECT>
   </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Globals"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Related Pages"><param name="Local" value="pages.html"><param name="ImageNumber" value="1"></OBJECT>
