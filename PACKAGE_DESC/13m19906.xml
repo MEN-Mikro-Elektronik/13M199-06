@@ -12,7 +12,7 @@
 			<description>FPGA-Board with Universal Submodule</description>
 			<devtype>MDIS</devtype>
 			<autoid>
-				<mmoduleid>0x534600C7</mmoduleid>
+				<mmoduleid>0x534600c7</mmoduleid>
 			</autoid>
 			<busif>M-Module</busif>
 			<mmodaddrcap>A08</mmodaddrcap>
@@ -31,7 +31,7 @@
 			<description>FPGA-Board with Universal Submodule - A24 Mode</description>
 			<devtype>MDIS</devtype>
 			<autoid>
-				<mmoduleid>0x534600C7</mmoduleid>
+				<mmoduleid>0x534600c7</mmoduleid>
 			</autoid>
 			<busif>M-Module</busif>
 			<mmodaddrcap>A24</mmodaddrcap>
